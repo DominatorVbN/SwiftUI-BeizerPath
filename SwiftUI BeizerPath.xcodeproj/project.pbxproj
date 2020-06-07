@@ -13,6 +13,9 @@
 		8317FC74248D35FE00C83B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8317FC73248D35FE00C83B05 /* Assets.xcassets */; };
 		8317FC77248D35FE00C83B05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8317FC76248D35FE00C83B05 /* Preview Assets.xcassets */; };
 		8317FC7A248D35FE00C83B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8317FC78248D35FE00C83B05 /* LaunchScreen.storyboard */; };
+		8317FC84248D365E00C83B05 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317FC82248D365E00C83B05 /* UIColor+extension.swift */; };
+		8317FC85248D365E00C83B05 /* UIBezierPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317FC83248D365E00C83B05 /* UIBezierPath+Extension.swift */; };
+		8317FC87248D4FA700C83B05 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317FC86248D4FA700C83B05 /* ShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,10 @@
 		8317FC76248D35FE00C83B05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8317FC79248D35FE00C83B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8317FC7B248D35FE00C83B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8317FC82248D365E00C83B05 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		8317FC83248D365E00C83B05 /* UIBezierPath+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Extension.swift"; sourceTree = "<group>"; };
+		8317FC86248D4FA700C83B05 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		8317FC88248D5CC900C83B05 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +47,7 @@
 		8317FC61248D35F800C83B05 = {
 			isa = PBXGroup;
 			children = (
+				8317FC88248D5CC900C83B05 /* README.md */,
 				8317FC6C248D35F800C83B05 /* SwiftUI BeizerPath */,
 				8317FC6B248D35F800C83B05 /* Products */,
 			);
@@ -56,6 +64,7 @@
 		8317FC6C248D35F800C83B05 /* SwiftUI BeizerPath */ = {
 			isa = PBXGroup;
 			children = (
+				8317FC81248D364B00C83B05 /* Extensions */,
 				8317FC6D248D35F800C83B05 /* AppDelegate.swift */,
 				8317FC6F248D35F800C83B05 /* SceneDelegate.swift */,
 				8317FC71248D35F800C83B05 /* ContentView.swift */,
@@ -63,6 +72,7 @@
 				8317FC78248D35FE00C83B05 /* LaunchScreen.storyboard */,
 				8317FC7B248D35FE00C83B05 /* Info.plist */,
 				8317FC75248D35FE00C83B05 /* Preview Content */,
+				8317FC86248D4FA700C83B05 /* ShapeView.swift */,
 			);
 			path = "SwiftUI BeizerPath";
 			sourceTree = "<group>";
@@ -73,6 +83,15 @@
 				8317FC76248D35FE00C83B05 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8317FC81248D364B00C83B05 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8317FC83248D365E00C83B05 /* UIBezierPath+Extension.swift */,
+				8317FC82248D365E00C83B05 /* UIColor+extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8317FC87248D4FA700C83B05 /* ShapeView.swift in Sources */,
 				8317FC6E248D35F800C83B05 /* AppDelegate.swift in Sources */,
+				8317FC85248D365E00C83B05 /* UIBezierPath+Extension.swift in Sources */,
 				8317FC70248D35F800C83B05 /* SceneDelegate.swift in Sources */,
 				8317FC72248D35F800C83B05 /* ContentView.swift in Sources */,
+				8317FC84248D365E00C83B05 /* UIColor+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
